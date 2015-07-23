@@ -16,23 +16,11 @@
 </body>
 
 <script language="JavaScript">
-	var data = [
-		{   label: "Prospecting",
-			value: 5,
-			goal: 10
-		},
-		{
-			label: "Needs Analysis",
-			value: 10,
-			goal: 15
-		}
-	];
-
 	pipeline = new pipelineChart("pipeline1");
 
 	pipeline
-		.push(new pipelineChartStage({label: data[0].label, value: data[0].value, goal: data[0].goal, color: "#95B3D7"}))
-		.push(new pipelineChartStage({label: data[1].label, value: data[1].value, goal: data[1].goal, color: "#95B3D7"}));
+		.push(new pipelineChartStage({label: "Stage 1", value: 25, goal: 50, color: "#95B3D7"}))
+		.push(new pipelineChartStage({label: "Stage 2", value: 50, goal: 60, color: "#95B3D7"}));
 
 	pipeline.render();
 </script>
