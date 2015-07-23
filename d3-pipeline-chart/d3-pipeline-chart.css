@@ -1,0 +1,39 @@
+.stage-background {
+	fill: #cecece;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+}
+
+.stage-fill {
+	fill-opacity: 1;
+	stroke-width: 20px;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+}
+
+.stage-mask {
+	fill-opacity: .0;
+	stroke: #ececec;
+	stroke-width: 20px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-dashoffset:0;
+}
+
+.stage-text {
+	fill: #ffffff;
+	font-size: 1.0em;
+	alignment-baseline: middle;
+	font-family: Lato;
+	text-anchor: middle;
+}
+
